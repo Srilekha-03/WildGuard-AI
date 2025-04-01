@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Welcome to Your Dashboard 🎵</h1>
+    <h1>WELCOME TO YOUR DASHBOARD</h1>
     <button @click="logout" class="logout-btn">Logout</button>
     
     <FileUpload />
@@ -28,8 +28,11 @@ export default {
 
 <style>
 h1 {
+  color: #73f5c3;
+  text-shadow: 0 0 10px rgba(50, 255, 126, 0.5);
   text-align: center;
-  color: black;
+  font-weight: 500;
+  letter-spacing: 1px;
 }
 .logout-btn {
   display: block;
