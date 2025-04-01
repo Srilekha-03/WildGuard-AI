@@ -39,7 +39,7 @@
 
 <script>
 import axios from "axios";
-import bgImage from '@/public/static/bg.png'; 
+
 
 export default {
   data() {
