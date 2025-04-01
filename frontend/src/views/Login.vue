@@ -76,7 +76,7 @@ export default {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  background-color: #121212;
+  background-image: url('./bg5.png');
 }
 
 .auth-box {

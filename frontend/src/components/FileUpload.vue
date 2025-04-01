@@ -1,3 +1,4 @@
+
 <template>
   <div class="wildlife-dashboard">
     <div class="dashboard-container">
@@ -38,6 +39,7 @@
 
 <script>
 import axios from "axios";
+import bgImage from '@/public/static/bg.png'; 
 
 export default {
   data() {
@@ -136,10 +138,10 @@ body, html {
   margin: 0;
   padding: 0;
   height: 100%;
-  background: linear-gradient(135deg, rgba(0, 20, 10, 0.95), rgba(0, 40, 20, 0.95));
+  background-image: url('./bg5.png');  
+  background-position: center;
   background-attachment: fixed;
   font-family: 'Orbitron', sans-serif;
-  color: #73f5c3;
   overflow-x: hidden;
 }
 
@@ -148,14 +150,12 @@ body, html {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 100 100"><g fill="%2300403A" opacity="0.1"><path d="M50 0 L0 100 L100 100 Z"/></g></svg>'), 
-              linear-gradient(135deg, rgba(0, 20, 10, 0.95), rgba(0, 40, 20, 0.95));
   background-blend-mode: overlay;
   perspective: 1000px;
 }
 
 .dashboard-container {
-  background: rgba(0, 30, 20, 0.85);
+  background: rgba(5, 98, 67, 0.85);
   border-radius: 20px;
   padding: 30px;
   width: 95%;

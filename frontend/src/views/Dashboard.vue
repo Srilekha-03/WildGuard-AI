@@ -28,17 +28,17 @@ export default {
 
 <style>
 h1 {
-  color: #73f5c3;
-  text-shadow: 0 0 10px rgba(50, 255, 126, 0.5);
+  color: #83e6ba;
+  text-shadow: 5px 5px 10px rgba(50, 255, 125, 0.222);
   text-align: center;
-  font-weight: 500;
+  font-weight: 1000;
   letter-spacing: 1px;
 }
 .logout-btn {
   display: block;
   margin: 20px auto;
   padding: 10px 15px;
-  background-color: #ff4d4d;
+  background-color: #b52525;
   color: white;
   border: none;
   cursor: pointer;
@@ -46,6 +46,6 @@ h1 {
   transition: 0.3s;
 }
 .logout-btn:hover {
-  background-color: #cc0000;
+  background-color: #842525;
 }
 </style>
